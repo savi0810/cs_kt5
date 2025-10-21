@@ -64,13 +64,18 @@ namespace cs_kt5
             Console.WriteLine("Первый с третьим");
             Console.WriteLine(b1.CompareTo(b3));
         }
-
+        
         static void Main(string[] args)
         {
+            int a;
+
+            int b = 0;
+
             GoAnimals();
             GoShapes();
             GoCompareStudents();
             GoCompareBooks();
+            // aaaaaaaaaa
         }
     }
 }
